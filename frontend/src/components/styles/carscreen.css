@@ -1,0 +1,42 @@
+.car-card {
+  width: 18rem;
+}
+
+.car-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.car-image-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.car-details-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.car-details-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.car-details-price {
+  font-size: 1.25rem;
+}
+
+.car-card-body {
+  flex: 2;
+  padding: 1rem;
+}

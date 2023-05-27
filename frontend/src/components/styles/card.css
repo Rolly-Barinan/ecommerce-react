@@ -1,0 +1,27 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 18rem;
+    margin: 10px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh; /* Set the height of the container to center the button vertically */
+  }
+  
+  Button {
+    margin: auto;
+    display: block;
+  }
+
+  .btn:hover {
+    background-color: #648585;
+    transform: scale(1.1);
+  }
